@@ -55,7 +55,6 @@ The models are evaluated based on:
 * **Precision & Recall**: Critical for security contexts to minimize false negatives (missed attacks) and false positives (false alarms).
 * **Confusion Matrix**: Visual representation of prediction performance.
 
-(Example Result from Notebook: Logistic Regression achieved ~88% accuracy on the test split).
 
 ## Getting Started
 

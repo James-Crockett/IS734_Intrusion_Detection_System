@@ -48,7 +48,7 @@ The notebook is set up to train and compare multiple classifiers:
 * Gaussian Naive Bayes
 * XGBoost
 
-```
+``` bash
 ------------------------------------------------------------
 FINAL RESULTS (Sorted by Accuracy)
                  Model  Accuracy  Precision    Recall  F1 Score

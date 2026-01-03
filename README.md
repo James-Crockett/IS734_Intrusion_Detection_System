@@ -37,7 +37,7 @@ The notebook implements a robust preprocessing pipeline:
 3.  **Scaling**: Using RobustScaler to normalize numerical features, making the models resilient to outliers.
 4.  **PCA (Principal Component Analysis)**: Reducing the feature space from 122+ processed features down to 20 principal components to improve training speed and reduce overfitting.
 
-## Models Implemented
+## Models Implemented and Performance
 
 The notebook is set up to train and compare multiple classifiers:
 * Logistic Regression
@@ -47,6 +47,19 @@ The notebook is set up to train and compare multiple classifiers:
 * K-Nearest Neighbors (KNN)
 * Gaussian Naive Bayes
 * XGBoost
+
+```
+------------------------------------------------------------
+FINAL RESULTS (Sorted by Accuracy)
+                 Model  Accuracy  Precision    Recall  F1 Score
+3        Decision Tree  0.790853   0.965375  0.656121  0.781257
+1        Random Forest  0.781183   0.968676  0.636172  0.767979
+5            KNN (n=5)  0.755855   0.972534  0.587704  0.732660
+0  Logistic Regression  0.751419   0.913606  0.622146  0.740219
+2           Linear SVM  0.745564   0.914787  0.609834  0.731812
+4          Naive Bayes  0.724627   0.905397  0.576483  0.704437
+------------------------------------------------------------
+```
 
 ## Results & Evaluation
 

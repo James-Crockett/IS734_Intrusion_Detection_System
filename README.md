@@ -46,7 +46,6 @@ The notebook is set up to train and compare multiple classifiers:
 * Decision Tree
 * K-Nearest Neighbors (KNN)
 * Gaussian Naive Bayes
-* XGBoost
 
 ``` bash
 ------------------------------------------------------------
